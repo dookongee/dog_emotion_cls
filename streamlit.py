@@ -221,12 +221,12 @@ def predict_dog(image_path, model, transform, dog_class_id):
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 de_ada=densenet('checkpoints/de_ada_b_epoch_7.pth',device)
-de_ada_re=densenet('checkpointsde_ada_re_b_epoch_8.pth',device)
-de_sgd=densenet('checkpointsde_sgd_b.pth',device)
-eff_ada=efficientnet('checkpointseff_ada_b_epoch_5.pth',device)
-eff_ada_re=efficientnet('checkpointseff_ada_re_b_epoch_6.pth',device)
-res_ada_re=resnet('checkpointsres34_ada_re_b_epoch_8.pth',device)
-res_sgd=resnet('checkpointsres34_sgd_b_epoch_8.pth',device)
+de_ada_re=densenet('checkpoints/de_ada_re_b_epoch_8.pth',device)
+de_sgd=densenet('checkpoints/de_sgd_b.pth',device)
+eff_ada=efficientnet('checkpoints/eff_ada_b_epoch_5.pth',device)
+eff_ada_re=efficientnet('checkpoints/eff_ada_re_b_epoch_6.pth',device)
+res_ada_re=resnet('checkpoints/res34_ada_re_b_epoch_8.pth',device)
+res_sgd=resnet('checkpoints/res34_sgd_b_epoch_8.pth',device)
 resnet34=resnet34(device)
 
 model_list=[de_ada,de_ada_re,de_sgd,eff_ada,eff_ada_re,res_ada_re,res_sgd]
