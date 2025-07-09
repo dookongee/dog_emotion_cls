@@ -51,14 +51,6 @@ To prevent unreliable emotion predictions on images without dogs:
 
 ---
 
-## 📷 Sample Output
-
-![스크린샷 2025-07-09 163558](https://github.com/user-attachments/assets/bc897e93-e3bb-4237-8115-1037c2ab106c)
-![스크린샷 2025-07-09 163628](https://github.com/user-attachments/assets/52fde026-14c4-4791-936a-4cccf62a1a26)
-![스크린샷 2025-07-09 163729](https://github.com/user-attachments/assets/96e79b6a-78e9-4f87-b592-a910ef319435)
-
-
----
 
 ## 📎 Reference
 
