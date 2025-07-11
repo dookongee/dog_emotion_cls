@@ -56,6 +56,6 @@ To prevent unreliable emotion predictions on images without dogs:
 
 This project was created as part of my preparation for graduate study in computer vision.  
 
-[📄 Full project documentation on Notion →](https://invincible-gargoyle-054.notion.site/Dog-Emotion-Classification-229c4ba53ecb806087d3fc7afe7de787?pvs=73)  
-[🚀 Live Demo →](https://dogemotioncls-333ewtsbckryqqfngf6ksm.streamlit.app/)
+[📄 Full project documentation on Notion](https://invincible-gargoyle-054.notion.site/Dog-Emotion-Classification-229c4ba53ecb806087d3fc7afe7de787?pvs=73)  
+[🚀 Live Demo](https://dogemotioncls-333ewtsbckryqqfngf6ksm.streamlit.app/)
 
